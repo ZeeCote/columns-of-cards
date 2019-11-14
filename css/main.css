@@ -1,0 +1,93 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background: #f2f2f2;
+}
+
+section h2 {
+  text-align: center;
+  margin: 0;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+
+section .cards {
+  display: flex;
+  flex-direction: row;
+  flex-grow: initial;
+  align-content: center;
+  margin: 0 auto 1.5rem;
+  padding: 1.5rem;
+  line-height: 1.5;
+}
+
+section .cards h3 {
+  font-size: 1rem;
+}
+
+section .cards small {
+  font-style: italic;
+}
+
+section .cards div {
+  width: 25%;
+  border-left: .01em #333 solid;
+  border-right: .01em #333 solid;
+  padding: .75rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100px;
+  display: inline-block;
+  align-content: center;
+}
+
+.btn {
+  font-size: 1.125rem;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border: 3px #333 solid;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #000;
+  border: 3px #000 solid;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+section .cards .card-1 {
+  background: #e2e2e2;
+}
+
+section .cards .card-2 {
+  background: #ccc;
+}
+
+section .cards .card-3 {
+  background: #aaa;
+}
+
+section .cards .card-4 {
+  background: #999;
+}
